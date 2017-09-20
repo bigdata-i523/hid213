@@ -9,8 +9,8 @@
 ```
 owner:
     hid: 213
-    name: 
-    url: 
+    name: Liu, Yuchen
+    url: https://github.com/bigdata-i523/hid213
 ```
 
 # Paper 1
