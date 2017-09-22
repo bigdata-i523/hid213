@@ -2,10 +2,10 @@ FILE=report
 FLAGS=-interaction nonstopmode -halt-on-error -file-line-error 
 
 all:
-	pdflatex ${FILE}
+	pdflatex ${FLAGS} ${FILE}
 	bibtex ${FILE}
-	pdflatex ${FILE}
-	pdflatex ${FILE}
+	pdflatex ${FLAGS} ${FILE}
+	pdflatex ${FLAGS} ${FILE}
 
 pack:
 	rm -rf ${FILE}
