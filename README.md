@@ -18,9 +18,15 @@ paper1:
    hid:
    - 213
    title: Big Data and Speech Recognition 
-   abstract: This paper is about how big data applied on Speech Recongnition. Speech recognition is the inter-disciplinary sub-field of      computational linguistics that develops methodologies and technologies that enables the recognition and translation of spoken language    into text by computers. 
+   abstract: >
+       This paper is about how big data applied on Speech
+       Recongnition. Speech recognition is the inter-disciplinary
+       sub-field of      computational linguistics that develops
+       methodologies and technologies that enables the recognition and
+       translation of spoken language    into text by computers.
    url: https://github.com/bigdata-i523/hid213/paper1/paper1.pdf
    type: latex
+   chapter: Text
 ```
    
 # Paper 2
