@@ -28,7 +28,7 @@ class MycommandCommand(PluginCommand):
         for file in files:
           client.publish('filename'，file)
         
-        disconnect()
+        client.disconnect()
 
 
 
