@@ -18,15 +18,9 @@ paper1:
    hid:
    - 213
    title: Big Data and Speech Recognition 
-   abstract: >
-       This paper is about how big data applied on Speech
-       Recongnition. Speech recognition is the inter-disciplinary
-       sub-field of      computational linguistics that develops
-       methodologies and technologies that enables the recognition and
-       translation of spoken language    into text by computers.
+   abstract: Nowadays, Speech Recognition is becoming more and more important. Many technology companies are trying to use Big Data to                  develop more efficient and accurate algorithm for Speech Recognition. Nowadays, Deep learning can be described as the                      foundation of Speech Recognition. Deep learning algorithms such as RNN and CNN often need to supported by large amount of                  data -- Big data.  Before Big Data and deep learning, the word error rate was 24 percent. Recently, IBM published a paper                  where the word error rate was below 5.5 percent. In August, Microsoft speech recognition system has reached a 5.1 percent                  error rate.
    url: https://github.com/bigdata-i523/hid213/paper1/paper1.pdf
    type: latex
-   chapter: Text
 ```
    
 # Paper 2
