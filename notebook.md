@@ -13,9 +13,6 @@
 
 # Writing
 
-* 08/26/17 Installed and Learned aquamacs
-* 00/01/17 Installed and Learned jabref
-
-# Attended Online Meetings
-
-* 09/11/17 Attended meeting on jabref, latex, sharelatex, github
+* 09/10/17 Learning basic Latex skill
+* 09/30/17 Start doing research on Paper1
+* 10/01/17 Start writing Paper1
