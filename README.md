@@ -31,7 +31,7 @@ paper1:
        speech recognition system has reached a 5.1 percent error rate.
    url: https://github.com/bigdata-i523/hid213/paper1/paper1.pdf
    type: latex
-   status: 0%
+   status: 100%
    chapter: Media
 ```
    
