@@ -32,7 +32,6 @@ paper1:
    url: https://github.com/bigdata-i523/hid213/paper1/paper1.pdf
    type: latex
    status: 100%
-   chapter: Media
 ```
    
 # Paper 2
@@ -52,7 +51,7 @@ paper2:
        comparing selected facial features from the image and a face
        database.
    url: https://github.com/bigdata-i523/hid213/paper2/paper2.pdf
-   type: word
+   type: latex
 ```
 
 # Project 
