@@ -24,7 +24,7 @@ paper1:
     title: Big Data and Speech Recognition
     type: latex
     url: https://github.com/bigdata-i523/hid213/paper1/paper1.pdf
-
+    chapter: Media
 paper2:
     abstract: TBD
     author:
@@ -35,3 +35,4 @@ paper2:
     status: Oct 28 2017 50%
     type: latex
     url: https://github.com/bigdata-i523/hd213/paper2/paper2.pdf
+    chapter: Media
