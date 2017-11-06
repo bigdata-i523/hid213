@@ -28,20 +28,25 @@ paper1:
 paper2:
     review: Nov 6 2017
     abstract: >
-    Face recognition is a technology focus on identity retrieval and verification.  
-    Face recognition extracting face information from a given static or dynamic 
-    images to match with the known identity face database. Due to the interference 
-    of illumination, expression, occlusion and orientation, the accuracy of face 
-    recognition technology is relatively low compared with other recognition technology, 
-    such as palm print and fingerprint. But the acquisition method of Face recognition 
-    is the most friendly : without the cooperation of the parties, even in the case of 
-    its lack of awareness, it completed the acquisition and identification of face 
-    information. Therefore, face recognition technology has been a hot research 
-    topic in the field of artificial intelligence for more than 40 years and has 
-    gradually become mature.  Many technology companies are trying to use 
-    Big Data to develop more efficient and accurate algorithm for Face Recognition. 
-    It has been used in fields such as anti-terrorism, security and access control. 
-    In recent years, it has been applied to fields such as education and finance Promotion.
+        Face recognition is a technology focus on identity retrieval
+        and verification.  Face recognition extracting face
+        information from a given static or dynamic images to match
+        with the known identity face database. Due to the interference
+        of illumination, expression, occlusion and orientation, the
+        accuracy of face recognition technology is relatively low
+        compared with other recognition technology, such as palm print
+        and fingerprint. But the acquisition method of Face
+        recognition is the most friendly : without the cooperation of
+        the parties, even in the case of its lack of awareness, it
+        completed the acquisition and identification of face
+        information. Therefore, face recognition technology has been a
+        hot research topic in the field of artificial intelligence for
+        more than 40 years and has gradually become mature.  Many
+        technology companies are trying to use Big Data to develop
+        more efficient and accurate algorithm for Face Recognition.
+        It has been used in fields such as anti-terrorism, security
+        and access control.  In recent years, it has been applied to
+        fields such as education and finance Promotion.
     author:
         - Yuchen Liu
     hid:
