@@ -1,0 +1,89 @@
+\documentclass[sigconf]{acmart}
+
+\usepackage{hyperref}
+
+\usepackage{endfloat}
+\renewcommand{\efloatseparator}{\mbox{}} % no new page between figures
+
+\usepackage{booktabs} % For formal tables
+
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
+\pagestyle{plain} % removes running headers
+
+\begin{document}
+\title{Big Data and Face Recognition}
+
+
+\author{Yuchen Liu}
+\affiliation{%
+  \institution{Indiana University Bloomington}
+  \streetaddress{1750 N Range Rd, Apt D302}
+  \city{Bloomington} 
+  \state{IN} 
+  \postcode{47408}
+}
+\email{liu477@iu.edu}
+
+
+
+
+\begin{abstract}
+Face recognition is a technology focus on identity retrieval and verification.  Face recognition extracting face information from a given static or dynamic images to match with the known identity face database. Due to the interference of illumination, expression, occlusion and orientation, the accuracy of face recognition technology is relatively low compared with other recognition technology, such as palm print and fingerprint. But the acquisition method of Face recognition is the most friendly : without the cooperation of the parties, even in the case of its lack of awareness, it completed the acquisition and identification of face information. Therefore, face recognition technology has been a hot research topic in the field of artificial intelligence for more than 40 years and has gradually become mature.  Many technology companies are trying to use Big Data to develop more efficient and accurate algorithm for Face Recognition. It has been used in fields such as anti-terrorism, security and access control. In recent years, it has been applied to fields such as education and finance Promotion.
+\end{abstract}
+
+\keywords{I523, HID213, Big Data, Face Recognition}
+
+
+\maketitle
+
+\section{Introduction}
+Face recognition technology is a multidisciplinary technology that crosses image processing and pattern recognition.  It processes and analyzes human face images by using large amount of data to obtain effective feature information for identification. Compared with other biometrics, face recognition has the characteristics of non-contact collection, non-compulsory, simple operation, intuitive result and good concealment, which is more accepted by people. In the past few years, face recognition technology has made great strides, a large number of face recognition algorithms and products have emerged, such as FRVT 2017 (Face Recognition Vendor Test 2017), MBGC (Multiple Biometric Grand Challenge) and LFW(Labeled Faces in the Wild). 
+
+From the FRVT website we can know that Face Recognition Vendor Tests provide independent government evaluations of commercially available face recognition technologies\cite{FRVT}. These evaluations are designed to provide U.S. Government and law enforcement agencies with information to assist them in determining where and how facial recognition technology can best be deployed\cite{FRVT}. The primary goal of the MBGC is to investigate, test and improve performance of face and iris recognition technology on both still and video imagery through a series of challenge problems and evaluation\cite{MBGC}. LFW(Labeled Faces in the Wild) is a database of face photographs designed for studying the problem of unconstrained face recognition. The data set contains more than 13,000 images of faces collected from the web. Each face has been labeled with the name of the person pictured. 1680 of the people pictured have two or more distinct photos in the data set. The only constraint on these faces is that they were detected by the Viola-Jones face detector\cite{LFW}. 
+
+With the development of the Internet, especially the mobile Internet, an era of big data featuring information explosion is coming. Although the performance of face recognition technology has been greatly improved, it is still the most difficult area in the field of pattern recognition and computer vision. One of the problems is that how to use face recognition technology to utilize these massive photo data to improve the management level of the entire public security.
+
+\section{Why Big Data is important}
+We already know that the development of face recognition technology itself is important, but the development is also inseparable from the impact of big data. Big data technology provides a more powerful tool for image recognition technology including face recognition. As understood from the significance of big data itself, the purpose of big data analytic is to mine unknown and useful values from big data. Only through the mining of big data, face recognition technology and the value of big data can be really reflected.
+
+Face recognition technology is currently mainly used in the field of public safety, such as: identification of tracking terrorists, distribution of crime-prone areas, airport security, driver's license verification, video surveillance. Such applications need to be identified based on national face data, which need to deal with the database capacity of billion data. Identifying identities quickly and accurately from such a large database is a challenging task.  Moreover, the ID card is time-sensitive, and some people's photos are different from the previous ones. Of course, the effect of shooting angle, light, background and the correct angle of the face affects face recognition. In addition, there are too few samples on an individual basis, and each citizen basically owns one photo. Due to the difference in shooting equipment at the time, the identity resolution of the photo obtained is not optimistic. Under such a challenge, Face Recognition is really inefficient before Big Data. Therefore, the Face Recognition system slowly changed from picture recognition to dynamic video.
+
+Compared with static images, dynamic video contains a huge amount of image information, that is, for an individual, the number of image frames is relatively large. Moreover, the temporal relationship between images can made a very good description of the relationship between characters in the video. This makes the result of face recognition more accurate. However, for  high-definition video shots, that is, the correct face angle, no skew, adequate light, the video is not jitter and less expression. In this case, it is easy to identify work. However, the reality is that there is no clear camera in public places. People shaking a lot, the image faces are difficult to capture. The distance is far, and the obtained video is not very recognizable, which has a great impact on the recognition of the face\cite{crime}.
+
+
+
+\section{Face Recognition Under Big Data}
+Earlier, due to technical and market conditions, face recognition technology is more used in access control systems, other areas of the application is difficult to obtain substantial growth. However, due to the rapidly increasing recognition accuracy of face recognition in recent years and the rapidly increasing demand for intelligent in various fields, face recognition technology has started to penetrate into multiple markets such as robotics, intelligent transportation, public information management and consumer behavior analysis.
+
+According to the survey, the market size of face recognition market in applications such as access control, remote business processing, payment and security applications is more than one hundred billion. Since these applications are still only the tip of the iceberg at present, Recognition applications, face recognition market space will be even greater.
+
+Face recognition and big data technology has also shown a strong potential for development in the financial sector. How to reduce the risk control cost of the loan business and accurately identify the true identity of the borrower has become the primary issue to be solved in the development of the entire Internet finance. Therefore, the IT and finance giants such as Google, Apple, Baidu and other Internet financial companies are speeding up the research on Face Recognition and Big Data.
+
+In recent years, there has been a highly effective face recognition technology developed based on cloud computing. Based on the cloud architecture design, the system makes full use of the super computing power of the cloud computing platform, deploys a variety of algorithms to realize the hybridization of multiple algorithms. At the same time, absorb the advantages of various algorithms to improve face recognition performance and matching performance of large database. The system uses a typical Map-Reduce framework to spread facial features across dozens, hundreds or even thousands of computers in parallel for superior computing power.
+
+In the process of comparison, after receiving the comparison request, the comparison platform first extracts the features of the image and obtains the facial features. Then through the Map process, the system send the facial features to each computing nodes to compute. The output of this process will be the level of similarity and confidence level of each picture. Then, through the Reduce process, the recognition results are sorted according to similarities and further filtered to output the final comparison result\cite{bigdata}. 
+
+Compared with the traditional face recognition algorithm, the recognition process of cloud computing distributes the data in a large number of face database to multiple computing nodes for comparison processing,  so that the face matching process become parallel. So , it greatly accelerating the recognition process. Also, because of the linear scalability of the cloud platform, the data scalability of the system is guaranteed. After the data grows, the processing capability can also be increased by adding the computing nodes, thereby ensuring the real-time performance of the system.
+
+\section{Algorithm of Face Recognition}
+Basically, Algorithm face recognition technology can be categorized into three categories: Geometry-based method, template-based methods and model-based methods. Geometry-based method is the earliest used algorithm and most traditional method. It usually need to combine with other algorithms in order to have better results. The template-based methods can be divided into correlation matching method, eigen-face method, linear discriminant analysis method, singular value decomposition method, neural network method and dynamic connection matching method. The model-based methods are based on the Hidden Markov model, the active shape model and the active appearance model. 
+
+\subsection{Geometry-based method}
+Face by the eyes, nose, mouth, jaw and other components. Because of the differences in shape, size and structure of these components, each face in the world is different. Therefore, the geometric description of the shape and structure of these components can be used as an important feature of face recognition. Geometrical features were firstly used to describe and recognize the contour of the face. This method should work will, but there are two problems. One is that the weighting coefficients of various costs in the energy function can only be determined empirically and can not be popularized. The other is that the energy function optimization process is time consuming and difficult to be applied\cite{geo}. Parameter-based face representation can provide an efficient description of the salient features of a face, but it requires extensive preprocessing and fine parameter selection. At the same time, the general geometrical features only describe the basic shape and structure of the part. It ignore the  subtle features, resulting in the loss of some of the information. 
+
+\subsection{Template-based method}
+One of the Template-based method is Eigenface method. The Eigenface method is one of the most popular algorithms put forward by Turk and Pentland in the early 90's. It has the simple and effective feature and is also called the face recognition method based on principal component analysis (PCA).
+The basic idea of Eigenfaceface technology is to look for the basic elements of the face image  from the statistical point of view, that is, the eigenvectors of the face image sample set from the covariance matrix. Then use the eigenvectors to characterize the face image approximately. These eigenvectors are called eigenfaces.Now that the Eigenface (PCA) algorithm has become a benchmark for testing the performance of face recognition systems along with the classic template matching algorithm\cite{temp}.
+
+
+
+\section{Conclusions}
+In the past few years, driven by the demand, face recognition vendors and technology researchers have made a ;pt achievements of architecture, products and technologies. At present, face recognition technology has become a great weapon for investigation and detection. However, face recognition is still one of the most difficult problems in the field of pattern recognition and computer vision. The next step still requires the unremitting efforts of all parties and it is believed that more and better face recognition products will surely appear in the future.
+
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{report} 
+
+\end{document}
