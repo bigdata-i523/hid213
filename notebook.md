@@ -19,3 +19,5 @@
 * 10/01/17 Start writing Paper1
 * 10/20/17 Start doing research on Paper2
 * 10/21/17 Start writing Paper2
+* 11/21/17 Start writing Project
+* 12/04/17 Finish writing Project
