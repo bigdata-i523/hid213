@@ -55,8 +55,8 @@ paper2:
     status: Nov 06 2017 100%
     type: latex
     url: https://github.com/bigdata-i523/hd213/paper2/paper2.pdf
-    
-Project:
+    chapter: security
+project:
     review: Dec 4 2017
     abstract: >
         Digit Recognizer is becoming more and more important in many 
