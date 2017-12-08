@@ -77,10 +77,15 @@ project:
         Naive Bayes classifier on PCA data spends the least amount of 
         time to finish the classification task. It takes less one second 
         and reaches a 0.8651 accuracy.
+    duplicate: True
     author:
-        - Yuchen Liu
+        - Han, Wenxuan
+        - Liu, Yuchen
+        - Lu, Junjie
     hid:
+        - 209
         - 213
+        - 214
     title: Comparison between different classification algorithms in Digit Recognizer
     status: Dec 04 2017 100%
     type: latex
